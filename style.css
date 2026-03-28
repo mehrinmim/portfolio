@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f0f0f;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #111;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px;
+}
+
+.profile-img {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 60px;
+  text-align: center;
+}
+
+/* Skills */
+.skill-bar {
+  width: 70%;
+  margin: 15px auto;
+}
+
+.bar {
+  background: #333;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.progress {
+  height: 100%;
+  background: #667eea;
+}
+
+#extracurricular, #research {
+  padding: 40px;
+  text-align: center;
+}
+
+#extracurricular ul, #research ul {
+  list-style: none;
+  padding: 0;
+}
+
+#extracurricular li, #research li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+/* Projects */
+#projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #1e1e1e;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card button {
+  margin-top: 10px;
+}
+
+.card {
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #1e1e1e;
+}
+
+/* Social */
+.social-links a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background: #667eea;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+button {
+  padding: 10px;
+  background: #667eea;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
